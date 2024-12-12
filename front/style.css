@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#productDetails {
+    margin-top: 20px;
+}
+
+#searchForm {
+    margin-bottom: 20px;
+}
+
+#productNameDisplay, #productPriceDisplay {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#priceHistory {
+    list-style-type: none;
+    padding: 0;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="productDetails" style="display: none;">
+        <h2>Product Details</h2>
+        <div id="productNameDisplay"></div>
+        <div id="productPriceDisplay"></div>
+        <div>
+            <a id="productUrlDisplay" target="_blank">Product Link</a>
+        </div>
+        <h3>Price History</h3>
+        <ul id="priceHistory"></ul>
+    </div>
+
+    <div id="searchForm">
+        <input type="text" id="productName" placeholder="Enter product name">
+        <input type="number" id="productPrice" placeholder="Enter product price">
+        <input type="text" id="productUrl" placeholder="Enter product URL">
+        <button onclick="searchProduct()">Search</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
